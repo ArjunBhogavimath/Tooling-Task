@@ -40,6 +40,7 @@ public class ToolingTask {
     }
 
     public static Character findCommon(String items) {
+        items = items.trim();
         Set<Character> firstCompartment = new HashSet<>();
 
         //If the item length is odd, then make the 1st compartment 1 size smaller
